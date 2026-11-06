@@ -1,0 +1,24 @@
+{
+  "author": "Grace Ngo",
+  "source_context": "Dickinson College, DATA 200, Fall 2025",
+  "review_date": "2026-11-03",
+  "original_database_available": false,
+  "sources": [
+    {
+      "name": "Project 2 - Analyzing.ipynb",
+      "sha256": "4af90b60aca2fbf7c4be06c2d8509ede67875a88ed54ddea374c55aa6e54566f"
+    },
+    {
+      "name": "Project 2 - Data Report.ipynb",
+      "sha256": "53b50f9f5d0f422f8c07133e5d59caf49b111c12f088326fb5fba12960fbf828"
+    },
+    {
+      "name": "Project 2 - Exploring Data.ipynb",
+      "sha256": "dfead87f8e0ed670d2c0f38dcd145e209e6797a2bea9cc823b8dfa1fcea80102"
+    },
+    {
+      "name": "Data 200 Project 2 README.docx",
+      "sha256": "d33919f37004083c0040a1bf25f19acb4e65bb15dd314f36dc0c0e57fc9ede74"
+    }
+  ]
+}

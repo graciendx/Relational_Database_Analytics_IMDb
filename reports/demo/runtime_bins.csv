@@ -1,0 +1,9 @@
+genre,runtime_bin_start,title_count,mean_title_rating,minimum_title_rating,maximum_title_rating
+Drama,90,6,6.333333333333333,5.0,8.2
+Drama,100,6,6.466666666666666,5.0,8.2
+Drama,150,6,7.0,5.4,8.6
+Comedy,90,6,6.733333333333333,5.4,8.6
+Comedy,100,6,6.466666666666666,5.0,8.2
+Action,90,6,6.333333333333333,5.0,8.2
+Action,120,6,6.6000000000000005,5.0,8.2
+Documentary,110,6,6.866666666666667,5.4,8.6

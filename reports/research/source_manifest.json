@@ -1,0 +1,23 @@
+{
+  "retrieval_date": "2026-11-06",
+  "snapshot_run_date": "2026-11-05",
+  "population": "Non-adult movie titles released 2000\u20132024; observed ratings joined by title ID",
+  "files": [
+    {
+      "url": "https://datasets.imdbws.com/title.basics.tsv.gz",
+      "bytes": 229887636,
+      "sha256": "53533d3dfe0a43f5b31619a8a7abdfc4b5df36799d58cac81b1b7fbfe1c2ea92",
+      "last_modified": "Fri, 06 Nov 2026 00:45:02 GMT",
+      "source_run_date": "2026-11-05"
+    },
+    {
+      "url": "https://datasets.imdbws.com/title.ratings.tsv.gz",
+      "bytes": 8737881,
+      "sha256": "8129f9d14af63af6dfcb2a29e85f2d813ee36e44969bc50b6a3395413c443060",
+      "last_modified": "Fri, 06 Nov 2026 00:45:55 GMT",
+      "source_run_date": "2026-11-05"
+    }
+  ],
+  "rights": "Official IMDb non-commercial datasets; source TSV files and derived SQLite database excluded from Git",
+  "refresh_note": "Daily source URLs are mutable. Exact historical results require these hashed local inputs. New snapshots may change findings."
+}
