@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "imdb-catalogue-diagnostics"
+version = "1.0.0"
+description = "SQL-first catalogue coverage, rating aggregation and vote-threshold diagnostics"
+requires-python = ">=3.11"
+dependencies = ["matplotlib>=3.10,<4"]
+authors = [{name = "Grace Ngo"}]
+
+[project.optional-dependencies]
+notebook = ["jupyterlab>=4,<5"]
+
+[project.scripts]
+imdb-diagnostics = "imdb_analytics.analysis:main"
+imdb-import = "imdb_analytics.importer:main"
+
+[tool.setuptools.packages.find]
+include = ["imdb_analytics*"]
+
+[tool.setuptools.package-data]
+imdb_analytics = ["queries/*.sql"]

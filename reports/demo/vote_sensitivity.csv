@@ -1,0 +1,4 @@
+year,minimum_votes,eligible_titles,returned_titles,retained_from_baseline,jaccard_with_baseline,baseline_retention_share
+2010,200,18,18,18,1.0,1.0
+2010,5000,18,18,18,1.0,1.0
+2010,50000,12,12,12,0.6666666666666666,0.6666666666666666

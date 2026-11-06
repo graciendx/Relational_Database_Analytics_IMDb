@@ -1,0 +1,68 @@
+{
+  "author": "Grace Ngo",
+  "dataset_kind": "synthetic_fixture",
+  "year": 2010,
+  "profile": {
+    "titles": 41,
+    "ratings": 41,
+    "non_adult_movies": 39,
+    "missing_runtime_movies": 1,
+    "missing_genre_movies": 1,
+    "movies_without_rating": 0,
+    "orphan_rating_rows": 0
+  },
+  "parameters": {
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Action",
+      "Documentary"
+    ],
+    "runtime_interval": "[40,200)",
+    "bin_width": 10,
+    "min_votes_runtime": 200,
+    "min_titles_per_bin": 2,
+    "coverage_years": [
+      1920,
+      2019
+    ],
+    "ranking_min_votes": 5000,
+    "top_n": 25,
+    "vote_thresholds": [
+      200,
+      5000,
+      50000
+    ]
+  },
+  "vote_sensitivity": [
+    {
+      "year": 2010,
+      "minimum_votes": 200,
+      "eligible_titles": 18,
+      "returned_titles": 18,
+      "retained_from_baseline": 18,
+      "jaccard_with_baseline": 1.0,
+      "baseline_retention_share": 1.0
+    },
+    {
+      "year": 2010,
+      "minimum_votes": 5000,
+      "eligible_titles": 18,
+      "returned_titles": 18,
+      "retained_from_baseline": 18,
+      "jaccard_with_baseline": 1.0,
+      "baseline_retention_share": 1.0
+    },
+    {
+      "year": 2010,
+      "minimum_votes": 50000,
+      "eligible_titles": 12,
+      "returned_titles": 12,
+      "retained_from_baseline": 12,
+      "jaccard_with_baseline": 0.6666666666666666,
+      "baseline_retention_share": 0.6666666666666666
+    }
+  ],
+  "sqlite_version": "3.53.1",
+  "interpretation": "Fictional software demonstration; not IMDb findings."
+}

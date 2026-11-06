@@ -1,0 +1,1589 @@
+{
+  "config": {
+    "start_year": 2000,
+    "end_year": 2024,
+    "vote_floors": [
+      100,
+      1000,
+      10000,
+      100000
+    ],
+    "shortlist_size": 50
+  },
+  "joined_movies_in_window": 198677,
+  "threshold_summary": [
+    {
+      "vote_floor": 100,
+      "n_titles": 88601,
+      "mean_title_rating": 5.788880486676223,
+      "median_title_rating": 6.0,
+      "mean_release_year": 2014.3345447568313,
+      "missing_runtime": 1152,
+      "missing_genres": 161,
+      "share_rating_at_least_8": 0.029717497545174432,
+      "baseline_retention": 1.0,
+      "baseline_year_standardized_rating_delta": 0.0,
+      "standardization_covered_weight": 1.0,
+      "shortlist_n": 50,
+      "baseline_shortlist_n": 50,
+      "shortlist_overlap_count": 50,
+      "baseline_shortlist_retention": 1.0,
+      "shortlist_jaccard": 1.0,
+      "shortlist_new_count": 0
+    },
+    {
+      "vote_floor": 1000,
+      "n_titles": 30977,
+      "mean_title_rating": 6.101355844658941,
+      "median_title_rating": 6.3,
+      "mean_release_year": 2014.0597540110405,
+      "missing_runtime": 45,
+      "missing_genres": 28,
+      "share_rating_at_least_8": 0.03095845304580818,
+      "baseline_retention": 0.3496235934131669,
+      "baseline_year_standardized_rating_delta": 0.31019725600168224,
+      "standardization_covered_weight": 1.0,
+      "shortlist_n": 50,
+      "baseline_shortlist_n": 50,
+      "shortlist_overlap_count": 3,
+      "baseline_shortlist_retention": 0.06,
+      "shortlist_jaccard": 0.030927835051546393,
+      "shortlist_new_count": 47
+    },
+    {
+      "vote_floor": 10000,
+      "n_titles": 8323,
+      "mean_title_rating": 6.448792502703353,
+      "median_title_rating": 6.5,
+      "mean_release_year": 2013.015379070047,
+      "missing_runtime": 0,
+      "missing_genres": 2,
+      "share_rating_at_least_8": 0.04781929592694942,
+      "baseline_retention": 0.0939379916705229,
+      "baseline_year_standardized_rating_delta": 0.6504847346769184,
+      "standardization_covered_weight": 1.0,
+      "shortlist_n": 50,
+      "baseline_shortlist_n": 50,
+      "shortlist_overlap_count": 0,
+      "baseline_shortlist_retention": 0.0,
+      "shortlist_jaccard": 0.0,
+      "shortlist_new_count": 50
+    },
+    {
+      "vote_floor": 100000,
+      "n_titles": 2008,
+      "mean_title_rating": 6.849352589641434,
+      "median_title_rating": 6.9,
+      "mean_release_year": 2011.7280876494024,
+      "missing_runtime": 0,
+      "missing_genres": 0,
+      "share_rating_at_least_8": 0.07818725099601594,
+      "baseline_retention": 0.022663401090281147,
+      "baseline_year_standardized_rating_delta": 1.0552188063795271,
+      "standardization_covered_weight": 1.0,
+      "shortlist_n": 50,
+      "baseline_shortlist_n": 50,
+      "shortlist_overlap_count": 0,
+      "baseline_shortlist_retention": 0.0,
+      "shortlist_jaccard": 0.0,
+      "shortlist_new_count": 50
+    }
+  ],
+  "genre_mix": [
+    {
+      "vote_floor": 100,
+      "genre": "Action",
+      "tagged_titles": 11321,
+      "denominator": 88601,
+      "share": 0.12777508154535502
+    },
+    {
+      "vote_floor": 100,
+      "genre": "Adventure",
+      "tagged_titles": 5982,
+      "denominator": 88601,
+      "share": 0.06751616798907462
+    },
+    {
+      "vote_floor": 100,
+      "genre": "Animation",
+      "tagged_titles": 2639,
+      "denominator": 88601,
+      "share": 0.02978521687114141
+    },
+    {
+      "vote_floor": 100,
+      "genre": "Biography",
+      "tagged_titles": 3980,
+      "denominator": 88601,
+      "share": 0.04492048622476044
+    },
+    {
+      "vote_floor": 100,
+      "genre": "Comedy",
+      "tagged_titles": 26110,
+      "denominator": 88601,
+      "share": 0.2946919334996219
+    },
+    {
+      "vote_floor": 100,
+      "genre": "Crime",
+      "tagged_titles": 9107,
+      "denominator": 88601,
+      "share": 0.10278665026354104
+    },
+    {
+      "vote_floor": 100,
+      "genre": "Documentary",
+      "tagged_titles": 11099,
+      "denominator": 88601,
+      "share": 0.12526946648457693
+    },
+    {
+      "vote_floor": 100,
+      "genre": "Drama",
+      "tagged_titles": 44100,
+      "denominator": 88601,
+      "share": 0.49773704585727024
+    },
+    {
+      "vote_floor": 100,
+      "genre": "Family",
+      "tagged_titles": 4048,
+      "denominator": 88601,
+      "share": 0.045687971919052835
+    },
+    {
+      "vote_floor": 100,
+      "genre": "Fantasy",
+      "tagged_titles": 3595,
+      "denominator": 88601,
+      "share": 0.04057516280854618
+    },
+    {
+      "vote_floor": 100,
+      "genre": "History",
+      "tagged_titles": 2954,
+      "denominator": 88601,
+      "share": 0.03334048148440762
+    },
+    {
+      "vote_floor": 100,
+      "genre": "Horror",
+      "tagged_titles": 11042,
+      "denominator": 88601,
+      "share": 0.12462613288789065
+    },
+    {
+      "vote_floor": 100,
+      "genre": "Music",
+      "tagged_titles": 2578,
+      "denominator": 88601,
+      "share": 0.029096737057143825
+    },
+    {
+      "vote_floor": 100,
+      "genre": "Musical",
+      "tagged_titles": 919,
+      "denominator": 88601,
+      "share": 0.010372343427275088
+    },
+    {
+      "vote_floor": 100,
+      "genre": "Mystery",
+      "tagged_titles": 5538,
+      "denominator": 88601,
+      "share": 0.06250493786751843
+    },
+    {
+      "vote_floor": 100,
+      "genre": "Romance",
+      "tagged_titles": 11497,
+      "denominator": 88601,
+      "share": 0.12976151510705297
+    },
+    {
+      "vote_floor": 100,
+      "genre": "Sci-Fi",
+      "tagged_titles": 3072,
+      "denominator": 88601,
+      "share": 0.03467229489509148
+    },
+    {
+      "vote_floor": 100,
+      "genre": "Sport",
+      "tagged_titles": 1660,
+      "denominator": 88601,
+      "share": 0.018735680184196565
+    },
+    {
+      "vote_floor": 100,
+      "genre": "Thriller",
+      "tagged_titles": 12551,
+      "denominator": 88601,
+      "share": 0.141657543368585
+    },
+    {
+      "vote_floor": 100,
+      "genre": "War",
+      "tagged_titles": 1242,
+      "denominator": 88601,
+      "share": 0.014017900475163938
+    },
+    {
+      "vote_floor": 100,
+      "genre": "Western",
+      "tagged_titles": 328,
+      "denominator": 88601,
+      "share": 0.0037019898195279964
+    },
+    {
+      "vote_floor": 1000,
+      "genre": "Action",
+      "tagged_titles": 5886,
+      "denominator": 30977,
+      "share": 0.19001194434580496
+    },
+    {
+      "vote_floor": 1000,
+      "genre": "Adventure",
+      "tagged_titles": 3070,
+      "denominator": 30977,
+      "share": 0.09910578816541304
+    },
+    {
+      "vote_floor": 1000,
+      "genre": "Animation",
+      "tagged_titles": 1217,
+      "denominator": 30977,
+      "share": 0.039287213093585564
+    },
+    {
+      "vote_floor": 1000,
+      "genre": "Biography",
+      "tagged_titles": 1899,
+      "denominator": 30977,
+      "share": 0.061303547793524225
+    },
+    {
+      "vote_floor": 1000,
+      "genre": "Comedy",
+      "tagged_titles": 10109,
+      "denominator": 30977,
+      "share": 0.32633889660070375
+    },
+    {
+      "vote_floor": 1000,
+      "genre": "Crime",
+      "tagged_titles": 4788,
+      "denominator": 30977,
+      "share": 0.1545662911192175
+    },
+    {
+      "vote_floor": 1000,
+      "genre": "Documentary",
+      "tagged_titles": 2195,
+      "denominator": 30977,
+      "share": 0.07085902443748587
+    },
+    {
+      "vote_floor": 1000,
+      "genre": "Drama",
+      "tagged_titles": 17031,
+      "denominator": 30977,
+      "share": 0.5497950092003745
+    },
+    {
+      "vote_floor": 1000,
+      "genre": "Family",
+      "tagged_titles": 1166,
+      "denominator": 30977,
+      "share": 0.03764083029344352
+    },
+    {
+      "vote_floor": 1000,
+      "genre": "Fantasy",
+      "tagged_titles": 1586,
+      "denominator": 30977,
+      "share": 0.05119927688284857
+    },
+    {
+      "vote_floor": 1000,
+      "genre": "History",
+      "tagged_titles": 1252,
+      "denominator": 30977,
+      "share": 0.04041708364270265
+    },
+    {
+      "vote_floor": 1000,
+      "genre": "Horror",
+      "tagged_titles": 4238,
+      "denominator": 30977,
+      "share": 0.1368111824902347
+    },
+    {
+      "vote_floor": 1000,
+      "genre": "Music",
+      "tagged_titles": 956,
+      "denominator": 30977,
+      "share": 0.030861606998741003
+    },
+    {
+      "vote_floor": 1000,
+      "genre": "Musical",
+      "tagged_titles": 314,
+      "denominator": 30977,
+      "share": 0.010136552926364723
+    },
+    {
+      "vote_floor": 1000,
+      "genre": "Mystery",
+      "tagged_titles": 2858,
+      "denominator": 30977,
+      "share": 0.0922620008393324
+    },
+    {
+      "vote_floor": 1000,
+      "genre": "Romance",
+      "tagged_titles": 4750,
+      "denominator": 30977,
+      "share": 0.1533395745230332
+    },
+    {
+      "vote_floor": 1000,
+      "genre": "Sci-Fi",
+      "tagged_titles": 1340,
+      "denominator": 30977,
+      "share": 0.043257901023339894
+    },
+    {
+      "vote_floor": 1000,
+      "genre": "Sport",
+      "tagged_titles": 650,
+      "denominator": 30977,
+      "share": 0.020983310197888756
+    },
+    {
+      "vote_floor": 1000,
+      "genre": "Thriller",
+      "tagged_titles": 5370,
+      "denominator": 30977,
+      "share": 0.1733544242502502
+    },
+    {
+      "vote_floor": 1000,
+      "genre": "War",
+      "tagged_titles": 544,
+      "denominator": 30977,
+      "share": 0.017561416534848436
+    },
+    {
+      "vote_floor": 1000,
+      "genre": "Western",
+      "tagged_titles": 101,
+      "denominator": 30977,
+      "share": 0.003260483584595022
+    },
+    {
+      "vote_floor": 10000,
+      "genre": "Action",
+      "tagged_titles": 2179,
+      "denominator": 8323,
+      "share": 0.26180463775081103
+    },
+    {
+      "vote_floor": 10000,
+      "genre": "Adventure",
+      "tagged_titles": 1393,
+      "denominator": 8323,
+      "share": 0.16736753574432295
+    },
+    {
+      "vote_floor": 10000,
+      "genre": "Animation",
+      "tagged_titles": 448,
+      "denominator": 8323,
+      "share": 0.05382674516400336
+    },
+    {
+      "vote_floor": 10000,
+      "genre": "Biography",
+      "tagged_titles": 690,
+      "denominator": 8323,
+      "share": 0.08290279947134446
+    },
+    {
+      "vote_floor": 10000,
+      "genre": "Comedy",
+      "tagged_titles": 2895,
+      "denominator": 8323,
+      "share": 0.3478313108254235
+    },
+    {
+      "vote_floor": 10000,
+      "genre": "Crime",
+      "tagged_titles": 1701,
+      "denominator": 8323,
+      "share": 0.2043734230445753
+    },
+    {
+      "vote_floor": 10000,
+      "genre": "Documentary",
+      "tagged_titles": 235,
+      "denominator": 8323,
+      "share": 0.02823501141415355
+    },
+    {
+      "vote_floor": 10000,
+      "genre": "Drama",
+      "tagged_titles": 4778,
+      "denominator": 8323,
+      "share": 0.5740718490928751
+    },
+    {
+      "vote_floor": 10000,
+      "genre": "Family",
+      "tagged_titles": 321,
+      "denominator": 8323,
+      "share": 0.03856782410188634
+    },
+    {
+      "vote_floor": 10000,
+      "genre": "Fantasy",
+      "tagged_titles": 597,
+      "denominator": 8323,
+      "share": 0.07172894389042413
+    },
+    {
+      "vote_floor": 10000,
+      "genre": "History",
+      "tagged_titles": 333,
+      "denominator": 8323,
+      "share": 0.04000961191877929
+    },
+    {
+      "vote_floor": 10000,
+      "genre": "Horror",
+      "tagged_titles": 1111,
+      "denominator": 8323,
+      "share": 0.1334855220473387
+    },
+    {
+      "vote_floor": 10000,
+      "genre": "Music",
+      "tagged_titles": 244,
+      "denominator": 8323,
+      "share": 0.02931635227682326
+    },
+    {
+      "vote_floor": 10000,
+      "genre": "Musical",
+      "tagged_titles": 86,
+      "denominator": 8323,
+      "share": 0.01033281268773279
+    },
+    {
+      "vote_floor": 10000,
+      "genre": "Mystery",
+      "tagged_titles": 1055,
+      "denominator": 8323,
+      "share": 0.12675717890183827
+    },
+    {
+      "vote_floor": 10000,
+      "genre": "Romance",
+      "tagged_titles": 1353,
+      "denominator": 8323,
+      "share": 0.1625615763546798
+    },
+    {
+      "vote_floor": 10000,
+      "genre": "Sci-Fi",
+      "tagged_titles": 521,
+      "denominator": 8323,
+      "share": 0.06259762105010212
+    },
+    {
+      "vote_floor": 10000,
+      "genre": "Sport",
+      "tagged_titles": 178,
+      "denominator": 8323,
+      "share": 0.02138651928391205
+    },
+    {
+      "vote_floor": 10000,
+      "genre": "Thriller",
+      "tagged_titles": 1462,
+      "denominator": 8323,
+      "share": 0.17565781569145741
+    },
+    {
+      "vote_floor": 10000,
+      "genre": "War",
+      "tagged_titles": 137,
+      "denominator": 8323,
+      "share": 0.016460410909527816
+    },
+    {
+      "vote_floor": 10000,
+      "genre": "Western",
+      "tagged_titles": 34,
+      "denominator": 8323,
+      "share": 0.004085065481196684
+    },
+    {
+      "vote_floor": 100000,
+      "genre": "Action",
+      "tagged_titles": 756,
+      "denominator": 2008,
+      "share": 0.37649402390438247
+    },
+    {
+      "vote_floor": 100000,
+      "genre": "Adventure",
+      "tagged_titles": 615,
+      "denominator": 2008,
+      "share": 0.3062749003984064
+    },
+    {
+      "vote_floor": 100000,
+      "genre": "Animation",
+      "tagged_titles": 152,
+      "denominator": 2008,
+      "share": 0.07569721115537849
+    },
+    {
+      "vote_floor": 100000,
+      "genre": "Biography",
+      "tagged_titles": 144,
+      "denominator": 2008,
+      "share": 0.07171314741035857
+    },
+    {
+      "vote_floor": 100000,
+      "genre": "Comedy",
+      "tagged_titles": 641,
+      "denominator": 2008,
+      "share": 0.3192231075697211
+    },
+    {
+      "vote_floor": 100000,
+      "genre": "Crime",
+      "tagged_titles": 369,
+      "denominator": 2008,
+      "share": 0.18376494023904383
+    },
+    {
+      "vote_floor": 100000,
+      "genre": "Documentary",
+      "tagged_titles": 4,
+      "denominator": 2008,
+      "share": 0.00199203187250996
+    },
+    {
+      "vote_floor": 100000,
+      "genre": "Drama",
+      "tagged_titles": 924,
+      "denominator": 2008,
+      "share": 0.4601593625498008
+    },
+    {
+      "vote_floor": 100000,
+      "genre": "Family",
+      "tagged_titles": 83,
+      "denominator": 2008,
+      "share": 0.04133466135458167
+    },
+    {
+      "vote_floor": 100000,
+      "genre": "Fantasy",
+      "tagged_titles": 203,
+      "denominator": 2008,
+      "share": 0.10109561752988047
+    },
+    {
+      "vote_floor": 100000,
+      "genre": "History",
+      "tagged_titles": 53,
+      "denominator": 2008,
+      "share": 0.026394422310756973
+    },
+    {
+      "vote_floor": 100000,
+      "genre": "Horror",
+      "tagged_titles": 236,
+      "denominator": 2008,
+      "share": 0.11752988047808766
+    },
+    {
+      "vote_floor": 100000,
+      "genre": "Music",
+      "tagged_titles": 35,
+      "denominator": 2008,
+      "share": 0.01743027888446215
+    },
+    {
+      "vote_floor": 100000,
+      "genre": "Musical",
+      "tagged_titles": 20,
+      "denominator": 2008,
+      "share": 0.0099601593625498
+    },
+    {
+      "vote_floor": 100000,
+      "genre": "Mystery",
+      "tagged_titles": 241,
+      "denominator": 2008,
+      "share": 0.1200199203187251
+    },
+    {
+      "vote_floor": 100000,
+      "genre": "Romance",
+      "tagged_titles": 230,
+      "denominator": 2008,
+      "share": 0.1145418326693227
+    },
+    {
+      "vote_floor": 100000,
+      "genre": "Sci-Fi",
+      "tagged_titles": 234,
+      "denominator": 2008,
+      "share": 0.11653386454183266
+    },
+    {
+      "vote_floor": 100000,
+      "genre": "Sport",
+      "tagged_titles": 33,
+      "denominator": 2008,
+      "share": 0.01643426294820717
+    },
+    {
+      "vote_floor": 100000,
+      "genre": "Thriller",
+      "tagged_titles": 407,
+      "denominator": 2008,
+      "share": 0.20268924302788843
+    },
+    {
+      "vote_floor": 100000,
+      "genre": "War",
+      "tagged_titles": 25,
+      "denominator": 2008,
+      "share": 0.01245019920318725
+    },
+    {
+      "vote_floor": 100000,
+      "genre": "Western",
+      "tagged_titles": 7,
+      "denominator": 2008,
+      "share": 0.0034860557768924302
+    }
+  ],
+  "year_sensitivity": [
+    {
+      "vote_floor": 100,
+      "release_year": 2000,
+      "n_titles": 1634,
+      "baseline_n": 1634,
+      "retention": 1.0,
+      "mean_title_rating": 5.850305997552019,
+      "baseline_year_weight": 0.018442229771673004
+    },
+    {
+      "vote_floor": 100,
+      "release_year": 2001,
+      "n_titles": 1806,
+      "baseline_n": 1806,
+      "retention": 1.0,
+      "mean_title_rating": 5.855813953488372,
+      "baseline_year_weight": 0.020383517116059638
+    },
+    {
+      "vote_floor": 100,
+      "release_year": 2002,
+      "n_titles": 1769,
+      "baseline_n": 1769,
+      "retention": 1.0,
+      "mean_title_rating": 5.9613340870548335,
+      "baseline_year_weight": 0.019965914605929957
+    },
+    {
+      "vote_floor": 100,
+      "release_year": 2003,
+      "n_titles": 1873,
+      "baseline_n": 1873,
+      "retention": 1.0,
+      "mean_title_rating": 5.894073678590496,
+      "baseline_year_weight": 0.021139716256024198
+    },
+    {
+      "vote_floor": 100,
+      "release_year": 2004,
+      "n_titles": 2137,
+      "baseline_n": 2137,
+      "retention": 1.0,
+      "mean_title_rating": 5.923631258773982,
+      "baseline_year_weight": 0.024119366598571123
+    },
+    {
+      "vote_floor": 100,
+      "release_year": 2005,
+      "n_titles": 2318,
+      "baseline_n": 2318,
+      "retention": 1.0,
+      "mean_title_rating": 5.859490940465919,
+      "baseline_year_weight": 0.026162232931908218
+    },
+    {
+      "vote_floor": 100,
+      "release_year": 2006,
+      "n_titles": 2669,
+      "baseline_n": 2669,
+      "retention": 1.0,
+      "mean_title_rating": 5.819632821281378,
+      "baseline_year_weight": 0.030123813500976288
+    },
+    {
+      "vote_floor": 100,
+      "release_year": 2007,
+      "n_titles": 2733,
+      "baseline_n": 2733,
+      "retention": 1.0,
+      "mean_title_rating": 5.862971094035858,
+      "baseline_year_weight": 0.03084615297795736
+    },
+    {
+      "vote_floor": 100,
+      "release_year": 2008,
+      "n_titles": 2924,
+      "baseline_n": 2924,
+      "retention": 1.0,
+      "mean_title_rating": 5.824965800273598,
+      "baseline_year_weight": 0.03300188485457275
+    },
+    {
+      "vote_floor": 100,
+      "release_year": 2009,
+      "n_titles": 3056,
+      "baseline_n": 3056,
+      "retention": 1.0,
+      "mean_title_rating": 5.798167539267015,
+      "baseline_year_weight": 0.03449171002584621
+    },
+    {
+      "vote_floor": 100,
+      "release_year": 2010,
+      "n_titles": 3100,
+      "baseline_n": 3100,
+      "retention": 1.0,
+      "mean_title_rating": 5.787064516129032,
+      "baseline_year_weight": 0.034988318416270696
+    },
+    {
+      "vote_floor": 100,
+      "release_year": 2011,
+      "n_titles": 3359,
+      "baseline_n": 3359,
+      "retention": 1.0,
+      "mean_title_rating": 5.7935397439714205,
+      "baseline_year_weight": 0.037911535987178474
+    },
+    {
+      "vote_floor": 100,
+      "release_year": 2012,
+      "n_titles": 3556,
+      "baseline_n": 3556,
+      "retention": 1.0,
+      "mean_title_rating": 5.792210348706412,
+      "baseline_year_weight": 0.040134987189760836
+    },
+    {
+      "vote_floor": 100,
+      "release_year": 2013,
+      "n_titles": 3866,
+      "baseline_n": 3866,
+      "retention": 1.0,
+      "mean_title_rating": 5.7723745473357475,
+      "baseline_year_weight": 0.04363381903138791
+    },
+    {
+      "vote_floor": 100,
+      "release_year": 2014,
+      "n_titles": 4165,
+      "baseline_n": 4165,
+      "retention": 1.0,
+      "mean_title_rating": 5.788259303721489,
+      "baseline_year_weight": 0.04700849877540886
+    },
+    {
+      "vote_floor": 100,
+      "release_year": 2015,
+      "n_titles": 4275,
+      "baseline_n": 4275,
+      "retention": 1.0,
+      "mean_title_rating": 5.747602339181286,
+      "baseline_year_weight": 0.04825001975147007
+    },
+    {
+      "vote_floor": 100,
+      "release_year": 2016,
+      "n_titles": 4581,
+      "baseline_n": 4581,
+      "retention": 1.0,
+      "mean_title_rating": 5.779414974896311,
+      "baseline_year_weight": 0.05170370537578583
+    },
+    {
+      "vote_floor": 100,
+      "release_year": 2017,
+      "n_titles": 4902,
+      "baseline_n": 4902,
+      "retention": 1.0,
+      "mean_title_rating": 5.77468380252958,
+      "baseline_year_weight": 0.055326689315019016
+    },
+    {
+      "vote_floor": 100,
+      "release_year": 2018,
+      "n_titles": 5047,
+      "baseline_n": 5047,
+      "retention": 1.0,
+      "mean_title_rating": 5.738200911432534,
+      "baseline_year_weight": 0.05696323969255426
+    },
+    {
+      "vote_floor": 100,
+      "release_year": 2019,
+      "n_titles": 5084,
+      "baseline_n": 5084,
+      "retention": 1.0,
+      "mean_title_rating": 5.754642014162077,
+      "baseline_year_weight": 0.05738084220268394
+    },
+    {
+      "vote_floor": 100,
+      "release_year": 2020,
+      "n_titles": 3926,
+      "baseline_n": 3926,
+      "retention": 1.0,
+      "mean_title_rating": 5.612964849719817,
+      "baseline_year_weight": 0.04431101229105766
+    },
+    {
+      "vote_floor": 100,
+      "release_year": 2021,
+      "n_titles": 4388,
+      "baseline_n": 4388,
+      "retention": 1.0,
+      "mean_title_rating": 5.6858477666362806,
+      "baseline_year_weight": 0.04952540039051478
+    },
+    {
+      "vote_floor": 100,
+      "release_year": 2022,
+      "n_titles": 5136,
+      "baseline_n": 5136,
+      "retention": 1.0,
+      "mean_title_rating": 5.776771806853582,
+      "baseline_year_weight": 0.05796774302773106
+    },
+    {
+      "vote_floor": 100,
+      "release_year": 2023,
+      "n_titles": 5261,
+      "baseline_n": 5261,
+      "retention": 1.0,
+      "mean_title_rating": 5.814065766964456,
+      "baseline_year_weight": 0.05937856231870972
+    },
+    {
+      "vote_floor": 100,
+      "release_year": 2024,
+      "n_titles": 5036,
+      "baseline_n": 5036,
+      "retention": 1.0,
+      "mean_title_rating": 5.837092930897538,
+      "baseline_year_weight": 0.056839087594948136
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2000,
+      "n_titles": 588,
+      "baseline_n": 1634,
+      "retention": 0.3598531211750306,
+      "mean_title_rating": 6.268877551020408,
+      "baseline_year_weight": 0.018442229771673004
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2001,
+      "n_titles": 641,
+      "baseline_n": 1806,
+      "retention": 0.3549280177187154,
+      "mean_title_rating": 6.2778471138845555,
+      "baseline_year_weight": 0.020383517116059638
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2002,
+      "n_titles": 700,
+      "baseline_n": 1769,
+      "retention": 0.395703787450537,
+      "mean_title_rating": 6.284428571428571,
+      "baseline_year_weight": 0.019965914605929957
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2003,
+      "n_titles": 703,
+      "baseline_n": 1873,
+      "retention": 0.37533368926855315,
+      "mean_title_rating": 6.298719772403983,
+      "baseline_year_weight": 0.021139716256024198
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2004,
+      "n_titles": 833,
+      "baseline_n": 2137,
+      "retention": 0.38979878334113244,
+      "mean_title_rating": 6.2877551020408164,
+      "baseline_year_weight": 0.024119366598571123
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2005,
+      "n_titles": 873,
+      "baseline_n": 2318,
+      "retention": 0.37661777394305435,
+      "mean_title_rating": 6.185910652920962,
+      "baseline_year_weight": 0.026162232931908218
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2006,
+      "n_titles": 1000,
+      "baseline_n": 2669,
+      "retention": 0.37467216185837393,
+      "mean_title_rating": 6.1338,
+      "baseline_year_weight": 0.030123813500976288
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2007,
+      "n_titles": 1012,
+      "baseline_n": 2733,
+      "retention": 0.37028905964141967,
+      "mean_title_rating": 6.1846837944664035,
+      "baseline_year_weight": 0.03084615297795736
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2008,
+      "n_titles": 1018,
+      "baseline_n": 2924,
+      "retention": 0.3481532147742818,
+      "mean_title_rating": 6.1476424361493125,
+      "baseline_year_weight": 0.03300188485457275
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2009,
+      "n_titles": 1119,
+      "baseline_n": 3056,
+      "retention": 0.3661649214659686,
+      "mean_title_rating": 6.074173369079535,
+      "baseline_year_weight": 0.03449171002584621
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2010,
+      "n_titles": 1107,
+      "baseline_n": 3100,
+      "retention": 0.3570967741935484,
+      "mean_title_rating": 6.166485998193315,
+      "baseline_year_weight": 0.034988318416270696
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2011,
+      "n_titles": 1178,
+      "baseline_n": 3359,
+      "retention": 0.3506996129800536,
+      "mean_title_rating": 6.096095076400679,
+      "baseline_year_weight": 0.037911535987178474
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2012,
+      "n_titles": 1275,
+      "baseline_n": 3556,
+      "retention": 0.3585489313835771,
+      "mean_title_rating": 6.047294117647059,
+      "baseline_year_weight": 0.040134987189760836
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2013,
+      "n_titles": 1369,
+      "baseline_n": 3866,
+      "retention": 0.35411277806518365,
+      "mean_title_rating": 6.115412710007305,
+      "baseline_year_weight": 0.04363381903138791
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2014,
+      "n_titles": 1473,
+      "baseline_n": 4165,
+      "retention": 0.3536614645858343,
+      "mean_title_rating": 6.0764426340801085,
+      "baseline_year_weight": 0.04700849877540886
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2015,
+      "n_titles": 1476,
+      "baseline_n": 4275,
+      "retention": 0.3452631578947368,
+      "mean_title_rating": 6.050948509485095,
+      "baseline_year_weight": 0.04825001975147007
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2016,
+      "n_titles": 1572,
+      "baseline_n": 4581,
+      "retention": 0.34315651604453173,
+      "mean_title_rating": 6.059096692111959,
+      "baseline_year_weight": 0.05170370537578583
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2017,
+      "n_titles": 1663,
+      "baseline_n": 4902,
+      "retention": 0.33924928600571197,
+      "mean_title_rating": 6.048346361996392,
+      "baseline_year_weight": 0.055326689315019016
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2018,
+      "n_titles": 1706,
+      "baseline_n": 5047,
+      "retention": 0.33802258767584703,
+      "mean_title_rating": 6.066822977725674,
+      "baseline_year_weight": 0.05696323969255426
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2019,
+      "n_titles": 1742,
+      "baseline_n": 5084,
+      "retention": 0.34264358772619985,
+      "mean_title_rating": 6.0239380022962115,
+      "baseline_year_weight": 0.05738084220268394
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2020,
+      "n_titles": 1324,
+      "baseline_n": 3926,
+      "retention": 0.337238920020377,
+      "mean_title_rating": 5.887915407854985,
+      "baseline_year_weight": 0.04431101229105766
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2021,
+      "n_titles": 1484,
+      "baseline_n": 4388,
+      "retention": 0.3381950774840474,
+      "mean_title_rating": 6.015835579514825,
+      "baseline_year_weight": 0.04952540039051478
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2022,
+      "n_titles": 1778,
+      "baseline_n": 5136,
+      "retention": 0.346183800623053,
+      "mean_title_rating": 6.044375703037121,
+      "baseline_year_weight": 0.05796774302773106
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2023,
+      "n_titles": 1725,
+      "baseline_n": 5261,
+      "retention": 0.3278844326173731,
+      "mean_title_rating": 6.103710144927536,
+      "baseline_year_weight": 0.05937856231870972
+    },
+    {
+      "vote_floor": 1000,
+      "release_year": 2024,
+      "n_titles": 1618,
+      "baseline_n": 5036,
+      "retention": 0.32128673550436854,
+      "mean_title_rating": 6.168665018541409,
+      "baseline_year_weight": 0.056839087594948136
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2000,
+      "n_titles": 206,
+      "baseline_n": 1634,
+      "retention": 0.12607099143206854,
+      "mean_title_rating": 6.4495145631067965,
+      "baseline_year_weight": 0.018442229771673004
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2001,
+      "n_titles": 221,
+      "baseline_n": 1806,
+      "retention": 0.12236987818383167,
+      "mean_title_rating": 6.546153846153846,
+      "baseline_year_weight": 0.020383517116059638
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2002,
+      "n_titles": 238,
+      "baseline_n": 1769,
+      "retention": 0.13453928773318258,
+      "mean_title_rating": 6.500840336134454,
+      "baseline_year_weight": 0.019965914605929957
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2003,
+      "n_titles": 227,
+      "baseline_n": 1873,
+      "retention": 0.1211959423384944,
+      "mean_title_rating": 6.515418502202643,
+      "baseline_year_weight": 0.021139716256024198
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2004,
+      "n_titles": 272,
+      "baseline_n": 2137,
+      "retention": 0.1272812353766963,
+      "mean_title_rating": 6.607352941176471,
+      "baseline_year_weight": 0.024119366598571123
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2005,
+      "n_titles": 277,
+      "baseline_n": 2318,
+      "retention": 0.11949956859361519,
+      "mean_title_rating": 6.508303249097473,
+      "baseline_year_weight": 0.026162232931908218
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2006,
+      "n_titles": 325,
+      "baseline_n": 2669,
+      "retention": 0.12176845260397152,
+      "mean_title_rating": 6.477538461538462,
+      "baseline_year_weight": 0.030123813500976288
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2007,
+      "n_titles": 337,
+      "baseline_n": 2733,
+      "retention": 0.12330772045371387,
+      "mean_title_rating": 6.498813056379822,
+      "baseline_year_weight": 0.03084615297795736
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2008,
+      "n_titles": 332,
+      "baseline_n": 2924,
+      "retention": 0.11354309165526676,
+      "mean_title_rating": 6.43855421686747,
+      "baseline_year_weight": 0.03300188485457275
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2009,
+      "n_titles": 335,
+      "baseline_n": 3056,
+      "retention": 0.10962041884816753,
+      "mean_title_rating": 6.420597014925373,
+      "baseline_year_weight": 0.03449171002584621
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2010,
+      "n_titles": 325,
+      "baseline_n": 3100,
+      "retention": 0.10483870967741936,
+      "mean_title_rating": 6.486769230769231,
+      "baseline_year_weight": 0.034988318416270696
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2011,
+      "n_titles": 354,
+      "baseline_n": 3359,
+      "retention": 0.10538850848466806,
+      "mean_title_rating": 6.444067796610169,
+      "baseline_year_weight": 0.037911535987178474
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2012,
+      "n_titles": 343,
+      "baseline_n": 3556,
+      "retention": 0.09645669291338582,
+      "mean_title_rating": 6.440233236151603,
+      "baseline_year_weight": 0.040134987189760836
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2013,
+      "n_titles": 382,
+      "baseline_n": 3866,
+      "retention": 0.09881013967925505,
+      "mean_title_rating": 6.4861256544502615,
+      "baseline_year_weight": 0.04363381903138791
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2014,
+      "n_titles": 402,
+      "baseline_n": 4165,
+      "retention": 0.09651860744297719,
+      "mean_title_rating": 6.464427860696517,
+      "baseline_year_weight": 0.04700849877540886
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2015,
+      "n_titles": 373,
+      "baseline_n": 4275,
+      "retention": 0.0872514619883041,
+      "mean_title_rating": 6.476943699731904,
+      "baseline_year_weight": 0.04825001975147007
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2016,
+      "n_titles": 398,
+      "baseline_n": 4581,
+      "retention": 0.08688059375682165,
+      "mean_title_rating": 6.52964824120603,
+      "baseline_year_weight": 0.05170370537578583
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2017,
+      "n_titles": 392,
+      "baseline_n": 4902,
+      "retention": 0.0799673602611179,
+      "mean_title_rating": 6.398724489795918,
+      "baseline_year_weight": 0.055326689315019016
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2018,
+      "n_titles": 426,
+      "baseline_n": 5047,
+      "retention": 0.08440657816524669,
+      "mean_title_rating": 6.443661971830986,
+      "baseline_year_weight": 0.05696323969255426
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2019,
+      "n_titles": 396,
+      "baseline_n": 5084,
+      "retention": 0.07789142407553108,
+      "mean_title_rating": 6.5108585858585855,
+      "baseline_year_weight": 0.05738084220268394
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2020,
+      "n_titles": 315,
+      "baseline_n": 3926,
+      "retention": 0.08023433520122261,
+      "mean_title_rating": 6.18,
+      "baseline_year_weight": 0.04431101229105766
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2021,
+      "n_titles": 349,
+      "baseline_n": 4388,
+      "retention": 0.07953509571558796,
+      "mean_title_rating": 6.373065902578796,
+      "baseline_year_weight": 0.04952540039051478
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2022,
+      "n_titles": 387,
+      "baseline_n": 5136,
+      "retention": 0.07535046728971963,
+      "mean_title_rating": 6.4074935400516795,
+      "baseline_year_weight": 0.05796774302773106
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2023,
+      "n_titles": 384,
+      "baseline_n": 5261,
+      "retention": 0.07298992586960654,
+      "mean_title_rating": 6.3875,
+      "baseline_year_weight": 0.05937856231870972
+    },
+    {
+      "vote_floor": 10000,
+      "release_year": 2024,
+      "n_titles": 327,
+      "baseline_n": 5036,
+      "retention": 0.06493248610007943,
+      "mean_title_rating": 6.31039755351682,
+      "baseline_year_weight": 0.056839087594948136
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2000,
+      "n_titles": 56,
+      "baseline_n": 1634,
+      "retention": 0.03427172582619339,
+      "mean_title_rating": 6.994642857142857,
+      "baseline_year_weight": 0.018442229771673004
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2001,
+      "n_titles": 63,
+      "baseline_n": 1806,
+      "retention": 0.03488372093023256,
+      "mean_title_rating": 6.973015873015873,
+      "baseline_year_weight": 0.020383517116059638
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2002,
+      "n_titles": 66,
+      "baseline_n": 1769,
+      "retention": 0.03730921424533635,
+      "mean_title_rating": 6.990909090909091,
+      "baseline_year_weight": 0.019965914605929957
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2003,
+      "n_titles": 71,
+      "baseline_n": 1873,
+      "retention": 0.037907100907634814,
+      "mean_title_rating": 6.7873239436619714,
+      "baseline_year_weight": 0.021139716256024198
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2004,
+      "n_titles": 84,
+      "baseline_n": 2137,
+      "retention": 0.039307440336920914,
+      "mean_title_rating": 6.957142857142857,
+      "baseline_year_weight": 0.024119366598571123
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2005,
+      "n_titles": 79,
+      "baseline_n": 2318,
+      "retention": 0.034081104400345126,
+      "mean_title_rating": 6.817721518987342,
+      "baseline_year_weight": 0.026162232931908218
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2006,
+      "n_titles": 85,
+      "baseline_n": 2669,
+      "retention": 0.03184713375796178,
+      "mean_title_rating": 6.978823529411764,
+      "baseline_year_weight": 0.030123813500976288
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2007,
+      "n_titles": 99,
+      "baseline_n": 2733,
+      "retention": 0.036223929747530186,
+      "mean_title_rating": 6.844444444444444,
+      "baseline_year_weight": 0.03084615297795736
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2008,
+      "n_titles": 87,
+      "baseline_n": 2924,
+      "retention": 0.02975376196990424,
+      "mean_title_rating": 6.793103448275862,
+      "baseline_year_weight": 0.03300188485457275
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2009,
+      "n_titles": 96,
+      "baseline_n": 3056,
+      "retention": 0.031413612565445025,
+      "mean_title_rating": 6.808333333333334,
+      "baseline_year_weight": 0.03449171002584621
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2010,
+      "n_titles": 101,
+      "baseline_n": 3100,
+      "retention": 0.03258064516129032,
+      "mean_title_rating": 6.707920792079208,
+      "baseline_year_weight": 0.034988318416270696
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2011,
+      "n_titles": 109,
+      "baseline_n": 3359,
+      "retention": 0.03245013396844299,
+      "mean_title_rating": 6.741284403669725,
+      "baseline_year_weight": 0.037911535987178474
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2012,
+      "n_titles": 89,
+      "baseline_n": 3556,
+      "retention": 0.025028121484814397,
+      "mean_title_rating": 6.856179775280899,
+      "baseline_year_weight": 0.040134987189760836
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2013,
+      "n_titles": 115,
+      "baseline_n": 3866,
+      "retention": 0.029746508018623902,
+      "mean_title_rating": 6.8,
+      "baseline_year_weight": 0.04363381903138791
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2014,
+      "n_titles": 93,
+      "baseline_n": 4165,
+      "retention": 0.02232893157262905,
+      "mean_title_rating": 6.887096774193548,
+      "baseline_year_weight": 0.04700849877540886
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2015,
+      "n_titles": 85,
+      "baseline_n": 4275,
+      "retention": 0.019883040935672516,
+      "mean_title_rating": 6.84,
+      "baseline_year_weight": 0.04825001975147007
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2016,
+      "n_titles": 107,
+      "baseline_n": 4581,
+      "retention": 0.023357345557738485,
+      "mean_title_rating": 6.8626168224299064,
+      "baseline_year_weight": 0.05170370537578583
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2017,
+      "n_titles": 84,
+      "baseline_n": 4902,
+      "retention": 0.017135862913096694,
+      "mean_title_rating": 6.880952380952381,
+      "baseline_year_weight": 0.055326689315019016
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2018,
+      "n_titles": 74,
+      "baseline_n": 5047,
+      "retention": 0.014662175549831583,
+      "mean_title_rating": 6.928378378378378,
+      "baseline_year_weight": 0.05696323969255426
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2019,
+      "n_titles": 78,
+      "baseline_n": 5084,
+      "retention": 0.015342250196695516,
+      "mean_title_rating": 6.921794871794872,
+      "baseline_year_weight": 0.05738084220268394
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2020,
+      "n_titles": 41,
+      "baseline_n": 3926,
+      "retention": 0.010443199184921039,
+      "mean_title_rating": 6.848780487804878,
+      "baseline_year_weight": 0.04431101229105766
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2021,
+      "n_titles": 60,
+      "baseline_n": 4388,
+      "retention": 0.013673655423883319,
+      "mean_title_rating": 6.826666666666666,
+      "baseline_year_weight": 0.04952540039051478
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2022,
+      "n_titles": 64,
+      "baseline_n": 5136,
+      "retention": 0.012461059190031152,
+      "mean_title_rating": 6.8625,
+      "baseline_year_weight": 0.05796774302773106
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2023,
+      "n_titles": 71,
+      "baseline_n": 5261,
+      "retention": 0.013495533168599127,
+      "mean_title_rating": 6.738028169014084,
+      "baseline_year_weight": 0.05937856231870972
+    },
+    {
+      "vote_floor": 100000,
+      "release_year": 2024,
+      "n_titles": 51,
+      "baseline_n": 5036,
+      "retention": 0.010127084988085783,
+      "mean_title_rating": 6.696078431372549,
+      "baseline_year_weight": 0.056839087594948136
+    }
+  ],
+  "import_metadata": {
+    "scope": "non-adult movies only",
+    "basics_sha256": "53533d3dfe0a43f5b31619a8a7abdfc4b5df36799d58cac81b1b7fbfe1c2ea92",
+    "ratings_sha256": "8129f9d14af63af6dfcb2a29e85f2d813ee36e44969bc50b6a3395413c443060"
+  }
+}
